@@ -1,0 +1,14 @@
+engines:
+  checkstyle:
+    enabled: true
+    channel: "beta"
+  pmd:
+    enabled: true
+    channel: "beta"
+
+exclude_paths:
+- src/org/jrubyparser/parser/
+
+ratings:
+  paths:
+  - "**.java"
