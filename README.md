@@ -4,6 +4,7 @@ JRuby once had a parser which kept track of all sorts of extra information when 
 
 JRubyParser.java is just the Java code which is slowly evolving into everything a Ruby IDE project could want.  Ability to know where source elements are; whether a syntax is correct; source re-writing....
 
+
 Netbeans and Eclipse are two users of JRubyParser.  We have a vested interest in making parsing Ruby a convenient and simple task for Java programmers.
 
 
